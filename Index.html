@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canisius Medium Energy Nuclear Physics Group</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1a3c6e, #2c5aa0);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: flex;
+            gap: 2rem;
+        }
+        
+        .sidebar {
+            width: 280px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            height: fit-content;
+            position: sticky;
+            top: 2rem;
+        }
+        
+        .sidebar h2 {
+            color: #1a3c6e;
+            margin-bottom: 1rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 2px solid #e0e0e0;
+            font-size: 1.4rem;
+        }
+        
+        .menu-list {
+            list-style: none;
+        }
+        
+        .menu-list li {
+            margin-bottom: 0.6rem;
+        }
+        
+        .menu-list a {
+            display: block;
+            padding: 0.75rem 1rem;
+            color: #333;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+        
+        .menu-list a:hover {
+            background-color: #e3f0ff;
+            color: #1a3c6e;
+            padding-left: 1.3rem;
+        }
+        
+        .main-content {
+            flex: 1;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 2.5rem;
+        }
+        
+        .main-content h2 {
+            color: #1a3c6e;
+            margin-bottom: 1.5rem;
+            font-size: 2.2rem;
+            border-bottom: 3px solid #2c5aa0;
+            padding-bottom: 0.8rem;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+        }
+        
+        footer {
+            background: #1a3c6e;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .nav-top {
+            background: #2c5aa0;
+            padding: 0.8rem 0;
+        }
+        
+        .nav-top ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .nav-top a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Canisius Medium Energy Nuclear Physics Group</h1>
+            <p class="subtitle">Department of Physics • Canisius University</p>
+        </div>
+    </header>
+
+    <nav class="nav-top">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Publications</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">News &amp; Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Left Sidebar Menu -->
+        <aside class="sidebar">
+            <h2>Menu</h2>
+            <ul class="menu-list">
+                <li><a href="#">🏠 Home</a></li>
+                <li><a href="#">🔬 Research Areas</a></li>
+                <li><a href="#">👥 Our Team</a></li>
+                <li><a href="#">📚 Publications</a></li>
+                <li><a href="#">🏗️ Experimental Facilities</a></li>
+                <li><a href="#">📊 Data &amp; Resources</a></li>
+                <li><a href="#">🎓 Students &amp; Opportunities</a></li>
+                <li><a href="#">📢 News &amp; Seminars</a></li>
+                <li><a href="#">🔗 Collaborations</a></li>
+                <li><a href="#">📧 Contact Us</a></li>
+            </ul>
+            
+            <hr style="margin: 2rem 0; border-color: #eee;">
+            
+            <h2>Quick Links</h2>
+            <ul class="menu-list">
+                <li><a href="#">Canisius University</a></li>
+                <li><a href="#">Jefferson Lab</a></li>
+                <li><a href="#">CERN</a></li>
+                <li><a href="#">Nuclear Physics Resources</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <h2>Quantum Chromodynamics (QCD)</h2>
+            
+            <div class="section">
+                <p><strong>Quantum Chromodynamics</strong> is the fundamental theory in particle physics that describes the strong interaction — one of the four known fundamental forces of nature. It governs the behavior of quarks and gluons, the building blocks of protons, neutrons, and other hadrons.</p>
+            </div>
+            
+            <div class="section">
+                <h3>Key Features of QCD</h3>
+                <ul>
+                    <li><strong>Asymptotic Freedom</strong>: At very short distances (high energies), the strong force between quarks becomes weaker, allowing quarks to behave almost as free particles.</li>
+                    <li><strong>Confinement</strong>: At larger distances, the force between quarks grows stronger, preventing them from existing in isolation. This is why we only observe color-neutral hadrons.</li>
+                    <li><strong>Color Charge</strong>: Quarks carry one of three color charges (red, green, or blue), while gluons carry both a color and an anti-color.</li>
+                    <li><strong>Non-Abelian Gauge Theory</strong>: Based on the SU(3) symmetry group, making the theory mathematically complex and rich.</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h3>Medium Energy Nuclear Physics Context</h3>
+                <p>Our group focuses on the application of QCD in the medium-energy regime, where the transition between perturbative and non-perturbative QCD occurs. Research includes studies of nucleon structure functions, generalized parton distributions (GPDs), and the dynamics of quarks and gluons inside nuclei.</p>
+                
+                <p>We perform precision experiments and theoretical calculations to better understand phenomena such as:</p>
+                <ul>
+                    <li>Deep Inelastic Scattering (DIS)</li>
+                    <li>Exclusive meson production</li>
+                    <li>Short-range correlations in nuclei</li>
+                    <li>Spin structure of the nucleon</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h3>Our Mission</h3>
+                <p>The Canisius Medium Energy Nuclear Physics Group is dedicated to advancing our understanding of the strong force through innovative experiments and theoretical developments. We collaborate with leading facilities worldwide, including Jefferson Laboratory, to explore the fundamental structure of matter.</p>
+            </div>
+            
+            <hr style="margin: 2.5rem 0;">
+            
+            <p style="text-align: center; color: #666; font-style: italic;">
+                "Understanding the strong force is key to understanding the visible universe."
+            </p>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Canisius Medium Energy Nuclear Physics Group • Canisius University • Buffalo, NY</p>
+        <p style="margin-top: 0.5rem; opacity: 0.8;">
+            This site is hosted on GitHub Pages • 
+            <a href="https://github.com" style="color: #a0c4ff; text-decoration: none;">View Repository</a>
+        </p>
+    </footer>
+</body>
+</html>
